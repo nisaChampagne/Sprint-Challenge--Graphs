@@ -23,6 +23,8 @@ class Graph:
 class Queue:
     def __init__(self):
         self.queue = []
+    def __str__(self):
+        return f"{self.queue}"
 
     def enqueue(self, value):
         self.queue.append(value)
